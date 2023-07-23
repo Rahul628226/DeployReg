@@ -63,7 +63,7 @@ const Main = () => {
 	formData.append('ifsc', formData.ifsc);
 
 
-	const response = await axios.post('http://localhost:8080/api/addProfile', formData, {
+	const response = await axios.post('https://ictak-reg.onrender.com/api/addProfile', formData, {
 		headers: {
 			'Content-Type': 'multipart/form-data'
 		}

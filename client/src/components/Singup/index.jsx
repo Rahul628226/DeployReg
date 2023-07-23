@@ -34,7 +34,7 @@ const Signup = () => {
     // Set the random password to the 'password' field in the 'data' state
 
     try {
-      const url = "http://localhost:8080/api/users";
+      const url = "https://ictak-reg.onrender.com/api/users";
 	 
 	  
 	//   setData({ ...data, password });
